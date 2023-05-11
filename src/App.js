@@ -6,7 +6,7 @@ function App() {
 
   let [name, setName] = useState('');
   let [isPending, startTransition] = useTransition();  
-  let state = useDeferredValue(state); // opposite to useTransition
+  // let state = useDeferredValue(state); // opposite to useTransition
 
   return (
     <div className="App">
